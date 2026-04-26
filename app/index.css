@@ -325,7 +325,7 @@ h1 {
 @media (max-width: 880px) {
   .memory-wall-wrapper .memory-card {
     width: 90vw;
-    height: 93vh;
+    height: 90vh;
     grid-template-rows: 42% 1fr;
     grid-template-columns: 1fr;
   }
@@ -333,7 +333,6 @@ h1 {
 @media (max-width: 608px) {
   .memory-wall-wrapper .memory-card {
     width: 92vw;
-    height: 93vh;
   }
 }
 .memory-wall-wrapper .memory-card-img_box {
