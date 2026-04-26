@@ -57,13 +57,13 @@ Cheers to a new age
     id: 1,
   },
   {
-    url: "/francis.jpg",
+    url: "/Francis.jpg",
     name: "Francis David",
     message: `Happy Birthday Tawakalitu, I wish you more good life and good health`,
     id: 2,
   },
   {
-    url: "/Zeey.jpg",
+    url: "/zeey.jpg",
     name: "Zeeeyy",
     message: `Happy birthday T!
 Live long and prosper in good health, endless happiness and wealth!
