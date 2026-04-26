@@ -1,0 +1,92 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 100;
+  line-height: 1.5;
+  // color: #eee;
+}
+
+h1 {
+  font-size: 8.5rem;
+  text-align: center;
+  font-family: var(--font-dancing-script);
+
+  @include respond(mds) {
+    font-size: 7.5rem;
+  }
+
+  @include respond(sm) {
+    font-size: 6.5rem;
+  }
+
+  @include respond(xs) {
+    font-size: 6rem;
+  }
+}
+
+.section-heading {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto 3rem;
+
+  @include respond(sm) {
+    width: 95%;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 3.9rem;
+    padding: 0.5rem 0;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.3;
+
+    @include respond(mds) {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.word-animation {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1;
+  gap: 1.2rem;
+  font-size: 4rem;
+  padding: 0 3rem;
+
+  @include respond(mds) {
+    font-size: 3rem;
+    gap: 1rem;
+  }
+
+  @include respond (sm) {
+    font-size: 2.8rem;
+    gap: .8rem;
+  }
+
+  &.centre {
+    justify-content: center;
+  }
+
+  .word {
+    // margin-right: 1rem;
+    position: relative;
+    margin-top: 1.2rem;
+
+    .shadow {
+      position: absolute;
+      opacity: 0.1;
+    }
+  }
+}

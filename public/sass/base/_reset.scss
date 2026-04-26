@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+
+  @include lgrespond(xxxl) {
+    font-size: 125%;
+  }
+
+  @include respond(md) {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: var(--font-outfit);
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+ul {
+  li {
+    list-style: none;
+  }
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+button {
+  border: none;
+}
+
+input,
+textarea {
+  //   font-family: $font-text;
+}

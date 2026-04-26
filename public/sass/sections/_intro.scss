@@ -1,0 +1,12 @@
+.intro-box {
+  width: 50dvw;
+  margin: auto;
+
+  @include respond(mds) {
+    width: 85vw;
+  }
+
+  p {
+    text-align: center;
+  }
+}

@@ -1,0 +1,26 @@
+.final-message {
+  // width: 90dvw;
+  margin: 0 auto 5rem;
+}
+
+.final-final {
+  .img-box {
+    // height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    img {
+      object-fit: cover;
+      width: 40%;
+
+      @include respond(mds) {
+        width: 100%;
+      }
+    }
+  }
+
+  h1 {
+  }
+}

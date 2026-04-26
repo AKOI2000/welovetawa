@@ -1,0 +1,64 @@
+.wishes-section {
+  background-color: var(--boxbg);
+  padding: 4rem 0;
+  .wishes-container {
+    position: relative;
+    height: 300vh;
+
+    .wishes-wrapper {
+      position: sticky;
+      top: 0;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      overflow: hidden;
+
+      &-wheel {
+        display: flex;
+        gap: 3rem;
+      }
+    }
+  }
+}
+
+.wish-card {
+  position: relative;
+  min-height: 90vh;
+  width: 40vw;
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+  border-radius: 1.2rem;
+  overflow: hidden;
+  background-color: #000;
+  padding: 4rem 3rem;
+
+  @include respond(mds) {
+    min-height: 80vh;
+  }
+
+  img {
+    object-fit: cover;
+  }
+
+  @include respond(mdl) {
+    width: 65vw;
+  }
+
+  @include respond(mds) {
+    width: 90vw;
+    padding: 4rem 2rem;
+  }
+
+  &-image-box {
+    position: relative;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50rem;
+    overflow: hidden;
+
+    img {
+      object-fit: cover;
+    }
+  }
+}
