@@ -45,22 +45,7 @@ This decision was made because:
 /styles            # Global styles
 
 
-🚀 Getting Started
-git clone https://github.com/your-username/tawakalt-birthday.git
+git clone https://github.com/AKOI2000/tawakalt-birthday.git
 cd tawakalt-birthday
 npm install
 npm run dev
-
-Open http://localhost:3000
-
-🎯 Customization
-Edit messages in /app/page.tsx
-Replace images in /public
-Update styles as needed
-🌐 Deployment
-
-Deploy easily on Vercel or any platform that supports Next.js.
-
-📄 License
-
-Free to use for personal projects.
