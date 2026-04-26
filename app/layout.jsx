@@ -30,12 +30,6 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    // <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
-    //   <body>
-    //     <main>{children}</main>
-    //   </body>
-    // </html>
-
     <html
       lang="en"
       className={`${dancing_script.variable} ${outfit.variable}     `}

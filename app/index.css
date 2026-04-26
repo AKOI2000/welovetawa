@@ -333,6 +333,7 @@ h1 {
 @media (max-width: 608px) {
   .memory-wall-wrapper .memory-card {
     width: 92vw;
+    height: 85vh;
   }
 }
 .memory-wall-wrapper .memory-card-img_box {
