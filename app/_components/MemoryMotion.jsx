@@ -74,7 +74,7 @@ May Almighty Allah's Rahmah, Sakeenah, Idayah, Barakah, Rizq, wa Noor be with yo
   },
   {
     url: "/brother.jpg",
-    name: "Brother",
+    name: "Yusuf",
     message: `Happy birthday to my dearest, loving and caring sister. Thank you for always standing by me, I pray you find someone who stands by you just as you do for everyone. May Almighty Allah bless, protect and guide you through all times.
 
 Have a wonderful day 💕`,
