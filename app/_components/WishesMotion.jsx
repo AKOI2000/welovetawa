@@ -14,9 +14,7 @@ const HorizontalScrollCarousel = () => {
     offset: ["start start", "end end"],
   });
 
-  const x = useTransform(scrollYProgress, [0.1, 1], ["1%", "-100%"]);
-  // const height = useTransform(scrollYProgress, [0.98, 1], ["100vh", "0vh"]);
-  // const opacity = useTransform(scrollYProgress, [0.88, 1], [1, 0]);
+  const x = useTransform(scrollYProgress, [0.1, 1], ["1%", "-101%"]);
 
   return (
     <section ref={targetRef} className="wishes-container">
