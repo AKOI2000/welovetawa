@@ -2,6 +2,7 @@
 import { Dancing_Script, Outfit } from "next/font/google";
 import "@/app/globals.css";
 import "@/app/index.css";
+import SmoothScroll from "@/app/_components/SmoothScroll";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
       className={`${dancing_script.variable} ${outfit.variable}     `}
     >
       <body>
+        <SmoothScroll />
         <main>{children}</main>
       </body>
     </html>

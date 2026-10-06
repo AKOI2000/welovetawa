@@ -12,7 +12,13 @@ function HeroMotion({ progress }) {
   const opacity = useTransform(progress, [0.3, 0.8], [1, 0]);
   return (
     <motion.div style={{ height: containerHeight }} className="hero-box">
-      <Image src={heroBg} fill style={{ objectFit: "cover" }} alt="Hero-bg" />
+      <Image
+        src={heroBg}
+        fill
+        sizes="100vw"
+        style={{ objectFit: "cover" }}
+        alt="Hero-bg"
+      />
 
       <div className="hero-overlay"></div>
 

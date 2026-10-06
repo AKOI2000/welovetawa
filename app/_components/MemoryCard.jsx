@@ -24,7 +24,12 @@ function MemoryCard({ index, card, range, targetScale, progress }) {
         }
       >
         <div className="memory-card-img_box">
-          <Image src={card?.url} alt={card?.message} fill />
+          <Image
+            src={card?.url}
+            alt={card?.message}
+            fill
+            sizes="(max-width: 768px) 100vw, 50vw"
+          />
         </div>
         <div className="memory-card-text_box">
           <motion.p

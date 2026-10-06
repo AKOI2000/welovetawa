@@ -32,7 +32,12 @@ const HorizontalScrollCarousel = () => {
 const Card = ({ card }) => {
   return (
     <motion.div className="wish-card">
-      <Image src={card.imagelink} alt="tawakalt Adeshina" fill />
+      <Image
+        src={card.imagelink}
+        alt="tawakalt Adeshina"
+        fill
+        sizes="(max-width: 768px) 85vw, 30vw"
+      />
     </motion.div>
   );
 };
