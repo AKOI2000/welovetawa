@@ -415,7 +415,7 @@ h1 {
 }
 .wishes-section .wishes-container {
   position: relative;
-  height: 300vh;
+  height: 1000vh;
 }
 .wishes-section .wishes-container .wishes-wrapper {
   position: sticky;
